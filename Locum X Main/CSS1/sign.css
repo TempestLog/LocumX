@@ -1,0 +1,191 @@
+body {
+    width: 100%;
+    height: 120vh;
+    color:black;
+    overflow-x: hidden;
+    background-color: white;
+    overflow-y: hidden;
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.baseimage {
+    position: absolute;
+    top: -40px;
+    right: 10%;
+    transform: scale(0.75, 0.75);
+
+}
+
+
+.signform {
+    position: absolute;
+    top:110px;
+    left: 17%;
+    Width: 30%;
+    height: 60%;
+    background-color: white;
+    border: none;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1), -0.5px -0.5px 5px rgba(0, 0, 0, 0.1), -0.5px 0.5px 5px rgba(0, 0, 0, 0.1), 0.5px -0.5px 5px rgba(0, 0, 0, 0.1);
+    padding: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.signform #redir {
+    position: absolute;
+    right: 4%;
+    color: #8D8D8D;
+}
+
+.signform p span {
+    font-weight: 700;
+}
+
+.signform p a {
+    color: #E48700;
+    cursor: pointer;
+
+}
+
+#shorts {
+    padding-right: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shortinput {
+    width: 47%;
+}
+
+input {
+    width: 98%;
+    height: 50px;
+    font-size: 14px;
+    border: 2px solid #C0C0C0;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+input[type=submit], #submitit {
+    width: 101%;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #E48700;
+}
+
+/* for sign in*/
+.signinImg {
+    top: -25px;
+    transform: scale(0.8, 0.8);
+}
+
+.signin {
+    height: 55%;
+}
+
+#Fpassword {
+    font-size: small;
+    color: #AD3113;
+    margin-left: 76%;
+}
+
+#or {
+    align-self:center;
+}
+
+#otherOpt {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#googleOpt {
+    width: 300px;
+    height: 50px;
+    color: #E48700;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFF4E3;
+}
+
+#otherOpt div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#googleOpt span {
+    align-self: center;
+}
+
+.smallOpt {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #F7F7F7;
+}
+
+#otherOpt img {
+    margin-right: 7%;
+    transform: scale(0.6, 0.6)
+}
+
+.smallOpt img {
+    margin-left: 7%;
+    align-items: center;
+}
+
+
+/* Exclusively for Accounttype html file */
+#container1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#typecontainer {
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#typecontainer a {
+    width: 40%;
+    height: 50%;
+}
+
+#types {
+    width: 100%;
+    height: 100%;
+    font-size:large;
+    font-weight: 700;
+    color:#E48700;
+    border-radius: 5%;
+    box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1), -0.5px -0.5px 5px rgba(0, 0, 0, 0.1), -0.5px 0.5px 5px rgba(0, 0, 0, 0.1), 0.5px -0.5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

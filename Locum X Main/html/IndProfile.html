@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocumX</title>
+    <link rel="stylesheet" href="../CSS1/profile.css">
+    <link rel="stylesheet" href="../CSS1/style.css">
+   </head>
+<body>
+    <nav>
+        <div class="menu">
+            <img class="logo" src="../images1/Logo.png" alt="">
+            <div class="subsCon">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+                <a class="profileLogo" href="../html/profile.html"><img class="profileImg" src="../images1/Ellipse 9.png"></a>
+            </div>
+        </div>
+    </nav>
+    <div class="profileContainer">
+        <h1>My Profile</h1>
+        <hr>
+        <div class="info">
+            <div class="imgCon"><img class="f_img" src="../images1/Ellipse 24.png"></div>
+            <div class="Pname">
+                <h4>Katherine Jones</h4>
+                <div id="locStat">
+                    <img  src="../icons1/location.png"><h6 id="loc">Achimota, Christian Village</h6><img id="redDot" src="../icons1/reddot.png"><h6> Booked</h6>
+                </div>
+                <div>
+                    <span><img src=""><span>4.7</span>Rating</span>
+                    <span><img src="">Booked</span>
+                </div>
+            </div>
+        </div>
+        <form method="POST" id="myPform" action="#">
+            <div class="formhalves" id="firsthalf">
+                <div class="N_section">
+                    <label class="labelText">Bio</label><br>
+                    <textarea type="text" name="name" placeholder="Enter information about yourself" class="input" id="bio"></textarea>
+                </div>
+                <div class="E_section">
+                    <label class="labelText">Profession & Experience</label><br>
+                    <div class="input">
+                        <input type="text" name="profession" placeholder="Enter profession"  id="prof">
+                        <input type="number" name="number" min="1" max="40" placeholder="6">
+                        <select name="period" id="period">
+                            <option value="days">Days</option>
+                            <option value="months">Months</option>
+                            <option value="years" selected>Years</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="vl"></div>
+            <div class="formhalves" id="secondhalf">
+                <div >
+                    <label class="labelText">Telephone No.</label><br>
+                    <input type="tel" name="tel" placeholder="+233 ** *** ****" class="input" >
+                </div>
+                <div class="F_section">
+                    <label class="labelText">Files: IDs, CVs</label><br>
+                    <img src="">
+                    <input type="file" name="file" accept="application/pdf, application/vnd.ms-word" value="Update files" size="300">
+                </div>
+                <input type="submit" value="Save Changes" id="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

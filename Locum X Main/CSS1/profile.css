@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins';
+  }
+
+body {
+  width: 100%;
+  height: 800px;
+  overflow-y: hidden;
+}
+  
+.profileContainer {
+  position: relative;
+  top: 80px;
+  width: 90%;
+  padding: 30px 20px;
+  margin-left: 35px;
+}
+
+
+hr {
+  width: 22%;
+  height: 2px;
+  background-color: #E48700;
+}
+
+.location, .info {
+  display: inline-flex;
+  margin-top: 40px;
+}
+
+.locText, .Pname {
+  margin-left: 10px;
+  padding-top: 20px;
+}
+
+form {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.labelText {
+  color: #E48700;
+  font-size:x-large;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.F_section {
+  position: absolute;
+  top: 35%;
+  right: 5%;
+}
+
+.input {
+  height: 50px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: #F3F3F3;
+  margin-bottom: 60px;
+}
+
+.input:focus{
+  outline: 5px;
+  outline-color: #E48700;
+}
+
+/*.input[name="file"]{
+  width: 40%;
+}*/
+
+#submit {
+  position: absolute;
+  top: 50%;
+  right: 15%;
+  height: 50px;
+  width: 20%;
+  background-color: #E48700;
+  border: none;
+  border-radius: 5px;
+}
+
+.imgCon {
+  height: 80px;
+  width: 80px;
+}
+
+.Pname {
+  padding-top: 10px;
+}
+
+#locStat {
+  display: flex;
+  flex-direction: row;
+}
+
+#locStat img {
+  height: 15px;
+  width: 10px;
+}
+
+#loc {
+  margin: 0px 5px;
+}
+
+#redDot {
+  margin: 0px 5px;
+}
+
+h4, h5, h6 {
+  font-weight: 500;
+}
+
+.f_img {
+  height: 100%;
+  width: 100%;
+}
+
+#bio {
+  height: 50%;
+  width: 48%;
+  margin: 60px 0;
+}
+
+.bioText a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+#cv img {
+  margin-left: 10px;
+}
+
+#cv {
+  width: 30%;
+  color:#E48700;
+  text-decoration: none;
+  margin-left: 60%;
+  font-size: x-small;
+  display: flex;
+  flex-direction: row;
+}
+
+#E_textbox {
+  width: 48%;
+}
+
+.bioText {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #F3F3F3;
+}
+
+#vl {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border-left: 3px solid black;
+  height: 75%;
+}
+
+#moreInfo {
+  position: absolute;
+  top: 30%;
+  right: 0px;
+  width: 48%;
+  display:inline-flex;
+}
+
+#tele {
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  width: 23%;
+  margin-right: 5%;
+}
+
+#expe {
+  position: absolute;
+  top: 20%;
+  right: 1%;
+  width: 23%;
+  
+}
+
+#Sreq {
+  position: absolute;
+  bottom: 40%;
+  right: 12%;
+  height: 10%;
+  width: 25%;
+  font-size: x-large;
+  font-weight: 600;
+  color: white;
+  background-color: #E48700;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* exclusively for My Provile indProfile html file*/
+
+#myPform {
+  width: 100%;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+#myPform .formhalves {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formhalves #secondhalf {
+  position: absolute;
+  top: 300px;
+  right: 10%;
+}
+
+#myPform .N_section #bio {
+  height: 50%;
+  width: 48%;
+  margin: 60px 0;
+}

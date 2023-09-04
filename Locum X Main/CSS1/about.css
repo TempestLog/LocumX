@@ -1,0 +1,31 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+::selection{
+    color: #000;
+    background: #fff;
+}
+.center {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Poppins";
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-decoration-color: #E48700;
+}
+.about{
+  margin-left: 30px;
+  margin-top: 15px;
+  font-size: 40px;
+  font-family: "Poppins";
+  padding: 10px;
+  justify-items: right;
+  justify-content: space-between;
+}
+img{
+  margin-right: 35px;
+}

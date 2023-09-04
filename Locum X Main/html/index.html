@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LocumX</title>
+    <link rel="stylesheet" href="../CSS1/homepage.css">
+    <link rel="stylesheet" href="../CSS1/style.css">
+   </head>
+<body>
+    <nav>
+        <div class="menu">
+            <img class="logo" src="../images1/Logo.png" alt="">
+            <div class="subsCon">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="home">
+            <div class="slideContainer">
+                <div class="carousel">
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <img src="../images1/about.png" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <img src="../images1/homepic2.jpg" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <img src="../images1/homepic3.jpg" style="width:100%">
+                    </div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)"><img src="../icons1/Polygon.png"></a>
+                <a class="next" onclick="plusSlides(1)"><img src="../icons1/Polygon1.png"></a>
+
+                <!-- The dots/circles -->
+                <div class="dotnav" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span><br>
+                </div>  
+            </div>
+    </header>
+    <div id="overlay">
+        <div id="overlay_con">
+            <h1>Your locum booking platform accessible everywhere.</h1><br>
+            <div>
+                <a href="Usertype.html"><input type="button" value="Get Started"></a>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <h1>About</h1>
+        <hr>
+        <div class="A_contents">
+            <img src="../images1/about1.png">
+            <span>
+                <p>Locums are essential for maintaining continuity of service and are used to cover gaps in order to ensure appropriate staffing levels and flexibility.</p><br>
+                <p>With LocumX, institutions can find locums to fill service gaps in case of leaves, holiday or excessive workload. Expertises are also connected to institutions or clients that need their services for any time frame- temporary, short-term or one-time jobs.</p><br>
+                <p>LocumX is sure to find the right professionals to keep your companies running.</p>
+            </span>
+        </div>
+    </div>
+    <div class="services">
+        <h1>Services</h1>
+        <hr>
+        <div class="servCon">
+            <div class="servplacing serv">
+                <img src="../images1/Rectangle 77.png">
+                <span>Find Professionals</span>
+                <p>Find the right professionals to do the job</p>
+            </div>
+            <div class="servplacing serv1">
+                <img src="../images1/Rectangle 78.png">
+                <span>Find a Locum Job</span>
+                <p>We help you fin available locum Jobs that suit your interest</p>
+            </div>
+            <div class="servplacing serv2">
+                <img src="../images1/Rectangle 79.png">
+                <span>Earn Extra Cash</span>
+                <p>Shift jobs that are flexible to get you some extra cash</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h1>Contact Us</h1>
+        <hr>
+        <div id="contCon">
+            <form id="conForm">
+                <h2>Contact Form</h2>
+                <div>
+                    <label>Name</label><br>
+                    <input type="text" name="name" placeholder="Enter full name here">
+                </div>
+                <div>
+                    <label>Email Address</label><br>
+                    <input type="email" name="email" placeholder="Enter your email address">
+                </div>
+                <div>
+                    <label>Your Message</label><br>
+                    <textarea name="message" placeholder="Type your message here"></textarea>
+                </div>
+                <input type="submit" value="Send">
+            </form>
+            <div id="reach_us">
+                <span><h3>Greater Accra</h3>, Ghana</span><br>
+                <span>Department of Computer Science</span><br>
+                <span>Main Campus</span><br>
+                <span>Function Force - Mini Project</span><br><br>
+                <div>
+                    <span><img src="../icons1/phone.png">+233 50 240 1567</span><br>
+                    <span><img src="../icons1/phone.png">+233 59 285 1119</span><br>
+                    <span><img src="../icons1/mail.png">locum.prox@gmail.com</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
+        <footer>
+        <div class="footbar">
+            <ul>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">T & C's</a></li>
+                <li><a href="#">Privacy & Policies</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="#">Designs</a></li>
+            </ul>
+        </div>
+        <div class="footmain">
+            <div class="newsL">
+                <h1>Our News Letter</h1>
+                <span>Subscribe to our newsletter and we will inform you about jobs and offers</span><br>
+                <input type="email" placeholder="Enter your email address">
+            </div>
+            <div class="logoCon">
+                <img src="../images1/biglogo.png">
+                <div class="iconCon">
+                    <a href="#"><img src="../icons1/whatsapp.png"></a>
+                    <a href="#"><img src="../icons1/facebook.png"></a>
+                    <a href="#"><img src="../icons1/twitter.png"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        /*let slideIndex = 1;
+        navSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+        navSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+        navSlides(slideIndex = n);
+        }
+
+        function navSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        }*/
+
+
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 9000); // Change image every 2 seconds
+        }
+    </script>
+        
+</body>
+</html>
